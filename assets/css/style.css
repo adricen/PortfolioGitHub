@@ -1,0 +1,149 @@
+/*
+Complemet de style
+*/
+* {
+  transition: 0.5s;
+}
+  .background_01 {
+  background-image: url('../img/MaterialsStudy2D.png');
+}
+.banner .image, .background_img {
+  background-position: 100% center;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+.background_img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  filter: blur(0px);
+  background-position: 0 center;
+  opacity: 0.4;
+  background-size: 100%;
+  transition: 0.5s;
+}
+.icon.style2::before {
+  box-shadow: inset 0 0 0 3px rgba(0, 0, 0, 0.8);
+}
+a.icon.style2:hover::before {
+  box-shadow: inset 0 0 0 3px #47D3E5;
+  color: #47D3E5;
+}
+.button {
+  box-shadow: inset 0 0 0 3px rgba(0, 0, 0, 0.8);
+}
+.button:hover {
+    box-shadow: inset 0 0 0 3px #47D3E5;
+    color: #47D3E5 !important;
+}
+#persoCard .effects{
+  transition: 0.5s;
+  filter: blur(3px);
+
+}
+#persoCard:hover .effects {
+  filter: blur(0px);
+}
+#persoCard h3{
+  position: relative;
+  bottom: 1em;
+}
+#persoCard:hover .background_img {
+  filter: blur(6px) brightness(125%) contrast(125%);
+
+}
+blockquote i {
+  color: rgba(0,0,0,0.5);
+}
+/*  Fonctionnement Nav  */
+/* #persoCard.sidebar {
+    max-width: 250px;
+    padding: 0;
+} */
+#persoCard.navigation {
+  color: white;
+  max-width: 20%;
+  padding: 6.89em 2em;
+  background-color: rgba(0, 0, 0, 0.59);
+  height: 100%;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+.banner {
+  position: relative;
+}
+.sidebar {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  top: 50%;
+  transform: translateY(25vh);
+  position: relative;
+}
+.display_docu {
+  width: 70%;
+  display: inline-block;
+  vertical-align: top;
+}
+.wrapper.style1 > .inner {
+  padding: 3rem 2.5rem 3rem 2.5rem;
+}
+.navigation {
+  color: white;
+}
+.navigation h2, .navigation h3, .navigation a {
+  text-align: center;
+  color: white;
+}
+.dashboard{
+  width: 80%;
+}
+.navBar li {
+  /* background-color: black; */
+  text-transform: uppercase;
+  text-align: center;
+  /* font-weight: bold; */
+}
+.navBar li a {
+text-decoration: none;
+}
+/* .navBar li a:hover {
+  background-color: black;
+  padding: 0.5em 1em;
+  color: white;
+} */
+ul.alt li {
+  border-top-color: rgba(0, 0, 0, 0);
+}
+ul.alt li a {
+  transition: 0.5s;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  padding: 0 1.5em;
+  max-width: 1em;
+}
+ul.alt li a:hover {
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+.display_img {
+  background-image: url("../img/Medusa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+  filter: brightness(120%);
+}
+.items.style1.medium .inner {
+  position: relative;
+}
+.items.style1.medium .inner img {
+  width: 100%;
+  position: absolute;
+}
+.display_docu {
+  width: 60%;
+}
